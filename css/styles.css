@@ -41,6 +41,9 @@ body {
 .logo-part {
   color: var(--accent-color);
 }
+.logo .white {
+  color: var(--primary-white-color);
+}
 .list {
   list-style: none;
 }
@@ -125,7 +128,7 @@ button {
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -164,7 +167,7 @@ button {
   text-align: center;
   letter-spacing: 0.03em;
 }
-.team-item .link {
+.team-member {
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
@@ -176,7 +179,13 @@ button {
 }
 .position {
   color: var(--primary-text-color);
+  font-family: Roboto;
+  font-style: normal;
   font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 .page-footer {
   background-color: var(--navigationfooter-background-color);
@@ -203,6 +212,13 @@ button {
 .selection-btn {
   background-color: var(--secondary-background-color);
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
 }
 
 .selection-btn:hover,
@@ -220,7 +236,7 @@ button {
   color: var(--title-text-color);
   font-family: Roboto;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
